@@ -16,10 +16,12 @@ h3 {
 
 h1 {
   font-size: 96px;
+  font-family: "Aboreto", cursive;
 }
 
 h2 {
   font-size: 48px;
+  font-family: "Numans", sans-serif;
 }
 
 h3 {
@@ -30,6 +32,7 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: "Nunito", sans-serif;
 }
 
 .navigation-links {
