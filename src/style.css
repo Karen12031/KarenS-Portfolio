@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color: #c7d36f;
+  --secondary-color: #fcf9c6;
+  --box-shadow: 0 5px 10px rgb(224, 222, 202);
 }
 
 body {
@@ -17,6 +17,7 @@ h3 {
 h1 {
   font-size: 96px;
   font-family: "Aboreto", cursive;
+  font-weight: bold;
 }
 
 h2 {
@@ -33,6 +34,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   font-family: "Nunito", sans-serif;
+  font-weight: 200;
 }
 
 .navigation-links {
