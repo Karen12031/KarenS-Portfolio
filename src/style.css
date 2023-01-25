@@ -1,11 +1,13 @@
 :root {
-  --primary-color: #c7d36f;
-  --secondary-color: #fcf9c6;
-  --box-shadow: 0 5px 10px rgb(224, 222, 202);
+  --primary-color: #c9ada6;
+  --secondary-color: #a6bba1;
+  --third-color: #d7daa8;
+  --box-shadow: 0 5px 10px rgb(181, 184, 140);
 }
 
 body {
   margin-top: 100px;
+  background-color: #f1f7e7;
 }
 
 h1,
@@ -27,7 +29,6 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
 }
 
 p {
