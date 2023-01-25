@@ -3,6 +3,8 @@
   --secondary-color: #a6bba1;
   --third-color: #d7daa8;
   --box-shadow: 0 5px 10px rgb(181, 184, 140);
+  --heading-font-family: "Aboreto", cursive;
+  --paragraph-font-family: "Nunito", sans-serif;
 }
 
 body {
@@ -10,28 +12,27 @@ body {
   background-color: #f1f7e7;
 }
 
-h1,
-h2,
-h3 {
+.hero {
   margin: 0;
+  background-color: var(--primary-color);
 }
 
-h1 {
+.hero h1 {
   font-size: 96px;
   font-family: "Aboreto", cursive;
   font-weight: bold;
 }
 
-h2 {
+.hero h2 {
   font-size: 48px;
   font-family: "Numans", sans-serif;
 }
 
-h3 {
+.hero h3 {
   font-size: 24px;
 }
 
-p {
+.hero p {
   font-size: 18px;
   line-height: 1.5;
   font-family: "Nunito", sans-serif;
@@ -48,23 +49,38 @@ p {
   margin: 20px;
 }
 
-.primary-link {
-  border-radius: 4px;
+.hero .primary-link {
+  border-radius: 6px;
+  border-width: 2px;
   padding: 20px 15px;
   text-decoration: none;
+  font-style: italic;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: rgb(85, 85, 85);
 }
 
-.secondary-link {
-  border-radius: 4px;
+.hero .secondary-link {
+  border-radius: 6px;
+  border-width: 2px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background-color: rgb(235, 220, 193);
+  color: rgb(85, 85, 85);
+}
+
+.primary-link {
+  border-radius: 10px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-style: italic;
+  background: var(--third-color);
+  box-shadow: var(--box-shadow);
+  color: black;
+  font-family: var(--paragraph-font-family);
 }
 
 .homepage-link {
