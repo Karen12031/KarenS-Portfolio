@@ -8,8 +8,11 @@
 }
 
 body {
-  margin-top: 100px;
+  margin-bottom: 30px;
   background-color: #f1f7e7;
+}
+.container {
+  margin-top: 100px;
 }
 
 .hero {
