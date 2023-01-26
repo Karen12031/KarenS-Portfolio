@@ -25,13 +25,80 @@
       href="https://fonts.googleapis.com/css2?family=Aboreto&family=Numans&family=Nunito:wght@200;300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/src/style.css" />
     <title>Project Home</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" title="homepage"
+          >Karen Smith</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="about page">
+                About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects/projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="contact info"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <h1>My Projects</h1>
-    <a href="/KarenS-Portfolio/projects/weather.html" target="_blank">
-      Weather Project</a
-    >
-    <a href="/KarenS-Portfolio/index.html"> Home</a>
+    <a href="/projects/weather.html" target="_blank"> Weather Project</a>
+    <a href="/index.html"> Home</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="/images/yoga.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="yoga project"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="/images/weather.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="weather app "
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="/images/yogurt.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="yogurt project"
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>

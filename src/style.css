@@ -119,3 +119,19 @@ body {
     margin: 0 20px;
   }
 }
+
+.about-header {
+  color: black;
+}
+
+.about-paragraphs {
+  font-size: 64px;
+  font-family: var(--paragraph-font-family);
+}
+
+h2 {
+  font-size: 48px;
+  font-family: "Numans", sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
