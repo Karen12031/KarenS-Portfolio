@@ -94,7 +94,11 @@ body {
 }
 
 .about-paragraphs p {
-  margin: 10px;
+  margin: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .email-link {
@@ -117,18 +121,33 @@ body {
   }
 }
 
-.about-header {
+@media (max-width: 576px) {
+  .container {
+    font-size: 50px;
+  }
+}
+.content-container {
   color: black;
 }
-
+.content-container h2 {
+  font-size: 48px;
+  font-family: "Numans", sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
 .about-paragraphs {
   font-size: 64px;
   font-family: var(--paragraph-font-family);
 }
 
-h2 {
-  font-size: 48px;
-  font-family: "Numans", sans-serif;
-  padding: 10px;
-  text-align: justify;
+.btn-primary {
+  --bs-btn-font-weight: 600;
+  --bs-bt-font-family: var(--paragraph-font-family);
+  --bs-btn-color: rgb(24, 32, 24);
+  --bs-btn-bg: var(--secondary-color);
+  --bs-btn-border-color: rgb(24, 32, 24);
+  --bs-btn-border-radius: 18px;
+  --bs-btn-hover-color: #7e655f;
+  --bs-btn-hover-bg: var(--secondary-color);
+  --bs-btn-hover-border-color: #{shade-color(7e655f), 10%};
 }
