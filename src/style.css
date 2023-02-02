@@ -90,15 +90,21 @@ body {
 }
 
 .about-paragraphs {
-  margin: 30px 0;
+  margin: 30px;
 }
 
 .about-paragraphs p {
   margin: 20px;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
+}
+
+.img-fluid {
+  max-width: 80%;
+  height: 80%;
+  margin: 60px;
 }
 
 .email-link {
@@ -129,14 +135,35 @@ body {
 .content-container {
   color: black;
 }
-.content-container h2 {
+
+.content {
+  padding: 0px;
+  text-align: center;
+}
+
+.content-container h1 {
+  margin-top: 90px;
   font-size: 48px;
-  font-family: "Numans", sans-serif;
+  font-family: var(--heading-font-family);
   padding: 10px;
   text-align: justify;
 }
-.about-paragraphs {
-  font-size: 64px;
+.content-container h2 {
+  font-size: 35px;
+  font-family: var(--paragraph-font-family);
+  padding: 10px;
+  text-align: justify;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--paragraph-font-family);
+  margin: 20px 0 0;
+  line-height: 1.5;
+}
+
+.content p {
+  font-size: 18px;
   font-family: var(--paragraph-font-family);
 }
 
