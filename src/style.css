@@ -178,3 +178,8 @@ body {
   --bs-btn-hover-bg: var(--secondary-color);
   --bs-btn-hover-border-color: #{shade-color(7e655f), 10%};
 }
+.nav-item {
+  font-family: var(--heading-font-family);
+  font-weight: bolder;
+  color: #c9ada6;
+}
