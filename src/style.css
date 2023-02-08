@@ -179,9 +179,8 @@ body {
   --bs-btn-hover-border-color: #{shade-color(7e655f), 10%};
 }
 
-.nav,
-.nav a {
-  padding: 20px 0;
+.nav {
+  padding: 25px 0;
   font-family: var(--heading-font-family);
 }
 
@@ -189,4 +188,58 @@ body {
   color: #c9ada6;
   font-weight: bolder;
   font-family: var(--heading-font-family);
+}
+
+@media (max-width: 576px) {
+  .logo {
+    display: none;
+  }
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #7e655f;
+  font-family: var(--paragraph-font-family);
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+  h4 {
+    font-size: 26px;
+  }
+}
+h4 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6c757d !important;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
