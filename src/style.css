@@ -42,7 +42,7 @@ body {
 .navigation-links {
   display: flex;
   margin-top: 10px;
-  justify-content: center;
+  justify-content: Center;
 }
 
 .navigation-links a {
@@ -178,8 +178,15 @@ body {
   --bs-btn-hover-bg: var(--secondary-color);
   --bs-btn-hover-border-color: #{shade-color(7e655f), 10%};
 }
-.nav-item {
+
+.nav,
+.nav a {
+  padding: 20px 0;
   font-family: var(--heading-font-family);
-  font-weight: bolder;
+}
+
+.nav-link:hover {
   color: #c9ada6;
+  font-weight: bolder;
+  font-family: var(--heading-font-family);
 }
