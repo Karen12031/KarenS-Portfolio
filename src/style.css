@@ -239,7 +239,7 @@ p {
 
 .social-links a {
   margin: 0 20px;
-  color: var(--primary-color);
+  color: black;
   background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
