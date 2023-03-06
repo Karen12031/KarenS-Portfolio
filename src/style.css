@@ -54,11 +54,12 @@ body {
   border-width: 2px;
   padding: 20px 15px;
   text-decoration: none;
-  font-style: italic;
+  font-weight: bold;
   text-transform: capitalize;
-  background: var(--secondary-color);
-  box-shadow: var(--box-shadow);
+  background-color: var(--third-color);
   color: rgb(85, 85, 85);
+  box-shadow: none;
+  font-family: var(--paragraph-font-family);
 }
 
 .hero .secondary-link {
@@ -66,9 +67,11 @@ body {
   border-width: 2px;
   padding: 20px 15px;
   text-decoration: none;
+  font-weight: bold;
   text-transform: capitalize;
   background-color: rgb(235, 220, 193);
   color: rgb(85, 85, 85);
+  font-family: var(--paragraph-font-family);
 }
 
 .primary-link {
@@ -76,7 +79,6 @@ body {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  font-style: italic;
   background: var(--third-color);
   box-shadow: var(--box-shadow);
   color: black;
@@ -216,6 +218,7 @@ h4 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
+  padding: 10px;
 }
 
 p {
