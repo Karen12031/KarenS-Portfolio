@@ -11,6 +11,11 @@ body {
   margin-bottom: 30px;
   background-color: #f1f7e7;
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .container {
   margin-top: 100px;
 }
